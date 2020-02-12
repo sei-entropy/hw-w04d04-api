@@ -1,0 +1,12 @@
+body {
+    background-color: lavender;
+}
+
+.container {
+    padding: 10px;
+    /* display: flex;*/
+}
+
+#random {
+    padding: 5px;
+}
