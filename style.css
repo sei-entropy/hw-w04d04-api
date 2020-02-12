@@ -1,0 +1,25 @@
+body {
+  background-color: #343840;
+}
+
+.character {
+  text-align: center;
+  background-color: #bf7160;
+  width: 10%;
+
+  padding: 3%;
+  display: inline-block;
+  margin: 1%;
+}
+
+img {
+  width: 150px;
+  margin: auto;
+}
+
+button {
+  display: block;
+  background-color: #d9d9d9;
+  padding: 0.5% 1.5%;
+  margin: auto;
+}
