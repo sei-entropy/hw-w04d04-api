@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    background-color: rgb(129, 182, 231);
+    color: azure;
+    flex-direction: row;
+}
+
+button{
+text-align: center;
+color: azure;
+background-color: rgb(7, 31, 82);
+border: 3px solid rgb(16, 17, 16);
+}
+
+
+img{
+    border: 3px solid rgb(16, 20, 14);
+
+}
+
