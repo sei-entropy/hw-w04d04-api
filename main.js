@@ -5,6 +5,13 @@
 // Consider making your fetch work with a button
 
 
+
+//         I'M USING DOM       //
+
+
+
+
+
 //API for" rick and morty"
 const apiUrl = "https://rickandmortyapi.com/api/character/";
 //Button for Action
@@ -16,7 +23,7 @@ const getRick = () => {
 //Using loop to get the first 5 characters
   for (let i = 1; i <= 5; i++) {
     const img = document.createElement("img");
-    const charName = document.createElement("h2");
+    const nameChar = document.createElement("h2");
 
 //Add axios
     axios({
@@ -26,9 +33,9 @@ const getRick = () => {
 //get image & name
       .then(res => {
         img.src = res.data.image;
-        charName.innerText = res.data.name;
+        nameChar.innerText = res.data.name;
         document.body.appendChild(document.createElement("br"));
-        document.body.appendChild(charName);
+        document.body.appendChild(nameChar);
         document.body.appendChild(img);
       })
 //for Erorr
@@ -41,9 +48,3 @@ const getRick = () => {
 //add event listener 
 button.addEventListener("click", getRick);
 
-
-
-
-
-
-btn.addEventListener('click', showCharacters)
