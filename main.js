@@ -43,12 +43,7 @@ function getInfo() {
 
 
 
-            //  IMG = res.data.resultes[i].img;
 
-
-            // change the p tags => quoteAuthor + quoteText
-
-            //  $('').text(quoteText);
 
         })
         .catch(err => {
