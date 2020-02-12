@@ -1,0 +1,30 @@
+.container {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.title{
+    border-top:gray solid 1px;
+    text-align: center;
+    padding-top:10px ;
+}
+.para {
+    text-align: center
+}
+
+
+/* /////////////////////////////////////////rick */
+
+.list{
+    display: flex;
+    width: 100%;;
+    
+}
+.charector{
+    width: 300px;
+    margin: 0 7px;
+    padding: 20px;
+}
+
