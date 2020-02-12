@@ -2,17 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>API Practice</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>API Practice</title>
 </head>
 
 <body>
-    <div class="container"></div>
-    <button id="random">Get Info</button>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="main.js"></script>
+  <div class="container">
+
+    <h4 id='film1'></h4>
+    <p class='all' id='film-desc1'></p>
+
+    <h4 id='film2'></h4>
+    <p class='all' id='film-desc2'></p>
+
+    <h4 id='film3'></h4>
+    <p class='all' id='film-desc3'></p>
+
+    <h4 id='film4'></h4>
+    <p class='all' id='film-desc4'></p>
+
+    <h4 id='film5'></h4>
+    <p class='all' id='film-desc5'></p>
+
+  </div>
+  <button id="random" onclick="studioGhibliFilms()">Get Info</button>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
