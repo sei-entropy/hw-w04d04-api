@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+div.container {
+         width: 90%;
+         display: flex;
+}
+img {
+    width: 150px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black; 
+}
+
+p{
+/* border-bottom: 2px solid gray ; */
+box-shadow: 2px 2px gray
+}
+h1{
+    text-align: justify;
+    text-align: center;
+}
