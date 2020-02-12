@@ -1,0 +1,48 @@
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 3%;
+    border: none;
+    ;
+}
+
+img {
+    width: 180px;
+    height: 200px;
+}
+
+div {
+    margin: 1.1%;
+    border: 1px solid black;
+}
+
+button {
+    font-size: large;
+    font-weight: bold;
+    margin: 0 2% 2%;
+    width: max-content;
+    padding: 8px 15px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    width: 990px;
+    padding: 10px;
+}
+
+h1 {
+    display: flexbox;
+    margin: 4% 15%;
+}
