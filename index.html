@@ -6,11 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>API Practice</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container"></div>
-    <button id="random">Get Info</button>
+    <button id="random" onclick="getPhoto()">Get Info</button>
+
+    <div class="container-all">
+
+        <div class="container">
+            <p id="par1">g</p>
+            <img src="" alt="" id="image1">
+        </div>
+
+        <div class="container">
+            <p id="par2">g</p>
+            <img src="" alt="" id="image2">
+        </div>
+
+        <div class="container">
+            <p id="par3">g</p>
+            <img src="" alt="" id="image3">
+        </div>
+
+        <div class="container">
+            <p id="par4">g</p>
+            <img src="" alt="" id="image4">
+        </div>
+
+        <div class="container">
+            <p id="par5">g</p>
+            <img src="" alt="" id="image5">
+        </div>
+    </div>
+
+    <!-- 1. jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
 </body>
