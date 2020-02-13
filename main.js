@@ -30,13 +30,10 @@ function namesAndImages() {
             const allImg = document.querySelectorAll('.image')
             allImg[i].src  = images;
     
-            // }
-            // const allActors = document.querySelectorAll('.actors').innerText
-            // allActors[i]  = names;
-            $(".actors").text(names);
-            // $(".actors").each (function (i){
-            //     text(names);
-            // })
+           
+            const allActors = document.querySelectorAll('.actors')
+            allActors[i].innerText = names;
+         
 
 
             } 
