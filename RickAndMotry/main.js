@@ -12,7 +12,7 @@
 
 
 
-//API for" rick and morty"
+//API for " rick and morty "
 const apiUrl = "https://rickandmortyapi.com/api/character/";
 //Button for Action
 const button = document.querySelector("button");
@@ -34,7 +34,7 @@ const getRick = () => {
       .then(res => {
         img.src = res.data.image;
         nameChar.innerText = res.data.name;
-        document.body.appendChild(document.createElement("br"));
+        // document.body.appendChild(document.createElement("br"));
         document.body.appendChild(nameChar);
         document.body.appendChild(img);
       })
@@ -47,4 +47,3 @@ const getRick = () => {
 
 //add event listener 
 button.addEventListener("click", getRick);
-
