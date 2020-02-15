@@ -19,12 +19,20 @@
 
 .list{
     display: flex;
-    width: 100%;;
+    width: 100%;
     
 }
-.charector{
-    width: 300px;
+h3{
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+#div0,#div1,#div2,#div3,#div4{
+    width: 20%;
     margin: 0 7px;
-    padding: 20px;
+    box-shadow:2px 2px;;
+    align-content: center;
+    border: gray solid .5px;
 }
 
