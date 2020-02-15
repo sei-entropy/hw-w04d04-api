@@ -1,0 +1,52 @@
+body {
+    background-color: snow;
+    text-align: center;
+
+}
+
+div.container {
+    border: 1px solid #ccc;
+    display: inline-flex;
+    width: 180px;
+    margin-right: 32%;
+}
+
+div.container img {
+    width: 180px;
+    height: 180px;
+}
+
+p {
+    padding-bottom: 0mm;
+    padding: 8px;
+    color: #187;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#random {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    margin-right: 38%;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: pink;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#randomn:hover {
+    background-color: plum;
+}
+
+#random:active {
+    background-color: palevioletred;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
