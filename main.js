@@ -8,7 +8,7 @@ function getcharacters  () {
     for (let i = 0; i <= 4; i++) {
         const URL = 'https://rickandmortyapi.com/api/character/';
 
-    axios({ url: URL +i+1, method: "get" })
+    axios({ url: URL + (i+1), method: "get" })
 
       .then(res => {
         const characterName = $(charactersList[i].children[0]);
